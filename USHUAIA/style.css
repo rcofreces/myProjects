@@ -1,0 +1,84 @@
+.container {
+    margin: 20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "imgOne imgTwo imgThree"
+                        "imgFour imgFour imgFive"
+                        "imgSix imgSix imgSix"
+                        "imgSeven imgEight imgEight"
+                        "imgNine imgTen imgEleven";
+}
+
+.imgOne, .imgTwo, .imgThree, .imgFour, .imgFive, .imgSix, .imgSeven, .imgEight, .imgNine, .imgTen, .imgEleven {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgs {
+    height: 100%;
+    width: 100%;
+}
+
+.imgOne {
+    grid-area: imgOne;
+}
+
+.imgTwo {
+    grid-area: imgTwo;
+}
+
+.imgThree {
+    grid-area: imgThree;
+}
+
+.imgFour {
+    grid-area: imgFour;
+}
+
+.imgFive {
+    grid-area: imgFive;
+}
+
+.imgSix {
+    grid-area: imgSix;
+}
+
+.imgSeven {
+    grid-area: imgSeven;
+}
+
+.imgEight {
+    grid-area: imgEight;
+}
+
+.imgNine {
+    grid-area: imgNine;
+}
+
+.imgTen {
+    grid-area: imgTen;
+}
+
+.imgEleven {
+    grid-area: imgEleven;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-areas: "imgOne imgOne imgOne"
+        "imgTwo imgTwo imgTwo"
+        "imgThree imgThree imgThree"
+        "imgFour imgFour imgFour"
+        "imgFive imgFive imgFive"
+        "imgSix imgSix imgSix"
+        "imgSeven imgSeven imgSeven"
+        "imgEight imgEight imgEight"
+        "imgNine imgNine imgNine"
+        "imgTen imgTen imgTen"
+        "imgEleven imgEleven imgEleven";
+    }
+}
