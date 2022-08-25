@@ -7,3 +7,7 @@ body {
     background-color: #f40000;
     color: #fff;
 }
+
+.images {
+    height: 75vh;
+}
