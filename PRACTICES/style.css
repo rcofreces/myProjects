@@ -1,0 +1,23 @@
+.container {
+    background-color: #bbb;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.square {
+    font-size: 50px;
+    border: 5px solid blue;
+    background-color: #fff;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.two, .four {
+    transform: rotate(370deg);
+}
