@@ -1,0 +1,13 @@
+body {
+    font-family: 'Russo One', sans-serif;
+    background-color: #ccc;
+}
+
+.header-name-col, .header-btn-col {
+    background-color: #f40000;
+    color: #fff;
+}
+
+.images {
+    height: 75vh;
+}
