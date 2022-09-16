@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 5, 98);
+    color: #fff;
+    padding: 10px 0;
+}
+
+img {
+    width: 2em;
+    height: 2em;
+}
+
+h1 {
+    padding-left: 20px;
+}
+
+nav {
+    background-color: rgb(0, 5, 98);
+}
+
+ul {
+    display: flex;
+    justify-content: left;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    padding: 0 10px;
+    width: 80px;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: rgb(170, 15, 46);
+    box-shadow: 0px 0px 3px rgb(170, 15, 46);
+}
+
