@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Special Elite', cursive;
+}
+
+form {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    height: 510px;
+    width: 400px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 80);
+    color: rgb(240, 0, 0);
+}
+
+label {
+    display: flex;
+    margin: 10px 0px 10px 25px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+input {
+    width: 350px;
+    height: 25px;
+    border: none;
+    background-color: rgb(220, 220, 220);
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+textarea {
+    width: 340px;
+    resize: none;
+    border: none;
+    background-color: rgb(220, 220, 220);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 12px 12px 27px 12px;
+    border: none;
+    background-color:rgb(240, 0, 0);
+    color: rgb(220, 220, 220);
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+input:hover, textarea:hover {
+    background-color: rgb(240, 0, 0);
+}
+
+.btn:hover {
+    background-color: rgb(200, 0, 0);
+}
